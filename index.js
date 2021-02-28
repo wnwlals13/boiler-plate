@@ -1,9 +1,9 @@
 //백엔드 시작점
 const express = require("express");
 const app = express();
-const port = 5000;
+const port = 6000;
 
-const config = require("./config/dev");
+const config = require("./config/key");
 
 const { User } = require("./models/User");
 
